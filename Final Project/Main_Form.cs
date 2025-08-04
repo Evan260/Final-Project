@@ -6,13 +6,7 @@ namespace Final_Project
         public Main_Form()
         {
             InitializeComponent();
-            SetupFormStyle();
-        }
-        private void SetupFormStyle()
-        {
-            // Set form properties for modern look
-            SetStyle(ControlStyles.ResizeRedraw, true);
-            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
+            ThemeManager.UseImmersiveDarkMode(Handle, true);
         }
         private void LoadDashboardStatistics()
         {

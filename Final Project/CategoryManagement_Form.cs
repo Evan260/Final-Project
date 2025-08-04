@@ -22,6 +22,8 @@ namespace Final_Project
         public CategoryManagement_Form()
         {
             InitializeComponent();
+
+            ThemeManager.UseImmersiveDarkMode(Handle, true);
             SetupDataGridView();
             ClearForm();
         }

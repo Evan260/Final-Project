@@ -25,6 +25,8 @@ namespace Final_Project
         public CustomerSelection_Form()
         {
             InitializeComponent();
+
+            ThemeManager.UseImmersiveDarkMode(Handle, true);
             SetupDataGridView();
             PopulateFilters();
         }

@@ -23,7 +23,9 @@ namespace Final_Project
         public CustomerHistory_Form(Customer customer)
         {
             InitializeComponent();
+
             _currentCustomer = customer;
+            ThemeManager.UseImmersiveDarkMode(Handle, true);
             SetupDataGridView();
             PopulateCustomerInfo();
         }

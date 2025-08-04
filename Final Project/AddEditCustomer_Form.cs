@@ -22,8 +22,10 @@ namespace Final_Project
         public AddEditCustomer_Form(Customer customer)
         {
             InitializeComponent();
+
             Customer = customer;
             _isEditMode = true;
+            ThemeManager.UseImmersiveDarkMode(Handle, true);
             SetupEditMode();
         }
 
@@ -337,7 +339,7 @@ namespace Final_Project
             if (string.IsNullOrWhiteSpace(phone)) return;
 
             // Remove all non-digits
-            string digits = Regex.Replace(phone, @"\D", "");
+            string digits = NonDigitsRegex().Replace(phone, "");
 
             // Format as (XXX) XXX-XXXX if 10 digits
             if (digits.Length == 10)
@@ -360,5 +362,8 @@ namespace Final_Project
 
         [GeneratedRegex(@"^[a-zA-Z\s\-']+$")]
         private static partial Regex NameRegex();
+
+        [GeneratedRegex(@"\D")]
+        private static partial Regex NonDigitsRegex();
     }
 }

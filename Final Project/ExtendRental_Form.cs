@@ -20,6 +20,8 @@
             numAdditionalDays.Value = 7;
             _additionalDays = 7;
 
+            ThemeManager.UseImmersiveDarkMode(Handle, true);
+
             PopulateRentalInfo();
             CalculateExtensionCost();
         }

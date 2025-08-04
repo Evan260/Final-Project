@@ -19,6 +19,8 @@
             InitializeComponent();
             _currentRental = rental;
 
+            ThemeManager.UseImmersiveDarkMode(Handle, true);
+
             SetupEquipmentDataGridView();
             PopulateRentalDetails();
         }

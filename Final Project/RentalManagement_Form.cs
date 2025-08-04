@@ -32,6 +32,8 @@ namespace Final_Project
             SetupDataGridView();
             PopulateFilters();
 
+            ThemeManager.UseImmersiveDarkMode(Handle, true);
+
             // Set default date range (last 30 days)
             dtpStartDate.Value = DateTime.Now.AddDays(-30);
             dtpEndDate.Value = DateTime.Now;

@@ -14,7 +14,7 @@ namespace Final_Project
         private CartesianChart _revenueChart;
         private PieChart _categoryChart;
         private CartesianChart _customerChart;
-        private List<ReportData> _reportData;
+        private List<ReportData> _reportData = [];
         private string _currentReportType = "Sales Overview";
         private readonly Random _random = new();
 
@@ -26,12 +26,11 @@ namespace Final_Project
         }
         private void SetupForm()
         {
-            // Initialize data
-            _reportData = [];
-
             // Setup date range (default last 30 days)
             dtpStartDate.Value = DateTime.Now.AddDays(-30);
             dtpEndDate.Value = DateTime.Now;
+
+            ThemeManager.UseImmersiveDarkMode(Handle, true);
 
             PopulateReportTypes();
             InitializeCharts();

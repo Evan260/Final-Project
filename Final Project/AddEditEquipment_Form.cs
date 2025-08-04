@@ -20,8 +20,10 @@
         public AddEditEquipment_Form(EquipmentItem equipment)
         {
             InitializeComponent();
+
             Equipment = equipment;
             _isEditMode = true;
+            ThemeManager.UseImmersiveDarkMode(Handle, true);
             SetupEditMode();
         }
 

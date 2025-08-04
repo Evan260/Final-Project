@@ -6,9 +6,9 @@ namespace Final_Project
     {
         // Properties
         private Customer _selectedCustomer;
-        private List<EquipmentItem> _availableEquipment;
-        private List<RentalEquipmentItem> _selectedEquipment;
-        private List<Category> _categories;
+        private List<EquipmentItem> _availableEquipment = [];
+        private readonly List<RentalEquipmentItem> _selectedEquipment = [];
+        private List<Category> _categories = [];
 
         private enum AvailableEquipmentColumns
         {
@@ -38,19 +38,13 @@ namespace Final_Project
         }
         private void SetupForm()
         {
-            // Initialize collections
-            _availableEquipment = [];
-            _selectedEquipment = [];
-            _categories = [];
-
-            // Setup data tables
-            SetupDataGridViews();
-
             // Set default dates
             dtpRentalDate.Value = DateTime.Now;
             dtpReturnDate.Value = DateTime.Now.AddDays(7);
 
-            // Initialize form state
+            ThemeManager.UseImmersiveDarkMode(Handle, true);
+
+            SetupDataGridViews();
             UpdateFormState();
         }
         private void SetupDataGridViews()
