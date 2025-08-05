@@ -484,6 +484,7 @@
             // dtpReturnDate
             // 
             dtpReturnDate.Animated = true;
+            dtpReturnDate.BackColor = Color.Transparent;
             dtpReturnDate.BorderRadius = 5;
             dtpReturnDate.Checked = true;
             dtpReturnDate.CustomizableEdges = customizableEdges11;
@@ -517,6 +518,7 @@
             // dtpRentalDate
             // 
             dtpRentalDate.Animated = true;
+            dtpRentalDate.BackColor = Color.Transparent;
             dtpRentalDate.BorderRadius = 5;
             dtpRentalDate.Checked = true;
             dtpRentalDate.CustomizableEdges = customizableEdges13;
@@ -673,6 +675,7 @@
             // btnAddRental
             // 
             btnAddRental.Animated = true;
+            btnAddRental.BackColor = Color.Transparent;
             btnAddRental.BorderRadius = 8;
             btnAddRental.Cursor = Cursors.Hand;
             btnAddRental.CustomizableEdges = customizableEdges19;
@@ -730,6 +733,7 @@
             // txtEquipmentSearch
             // 
             txtEquipmentSearch.Animated = true;
+            txtEquipmentSearch.BackColor = Color.Transparent;
             txtEquipmentSearch.BorderRadius = 5;
             txtEquipmentSearch.Cursor = Cursors.IBeam;
             txtEquipmentSearch.CustomizableEdges = customizableEdges23;
@@ -851,6 +855,7 @@
             // btnSelectCustomer
             // 
             btnSelectCustomer.Animated = true;
+            btnSelectCustomer.BackColor = Color.Transparent;
             btnSelectCustomer.BorderRadius = 8;
             btnSelectCustomer.Cursor = Cursors.Hand;
             btnSelectCustomer.CustomizableEdges = customizableEdges29;
@@ -874,6 +879,7 @@
             // txtSelectedCustomer
             // 
             txtSelectedCustomer.Animated = true;
+            txtSelectedCustomer.BackColor = Color.Transparent;
             txtSelectedCustomer.BorderRadius = 8;
             txtSelectedCustomer.Cursor = Cursors.IBeam;
             txtSelectedCustomer.CustomizableEdges = customizableEdges31;
@@ -940,6 +946,7 @@
             // btnCancel
             // 
             btnCancel.Animated = true;
+            btnCancel.BackColor = Color.Transparent;
             btnCancel.BorderRadius = 10;
             btnCancel.Cursor = Cursors.Hand;
             btnCancel.CustomizableEdges = customizableEdges39;
@@ -964,6 +971,7 @@
             // btnCreateRental
             // 
             btnCreateRental.Animated = true;
+            btnCreateRental.BackColor = Color.Transparent;
             btnCreateRental.BorderRadius = 10;
             btnCreateRental.Cursor = Cursors.Hand;
             btnCreateRental.CustomizableEdges = customizableEdges41;

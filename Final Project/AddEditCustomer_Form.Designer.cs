@@ -212,6 +212,7 @@
             // txtEmail
             // 
             txtEmail.Animated = true;
+            txtEmail.BackColor = Color.Transparent;
             txtEmail.BorderRadius = 8;
             txtEmail.Cursor = Cursors.IBeam;
             txtEmail.CustomizableEdges = customizableEdges5;
@@ -251,6 +252,7 @@
             // txtPhone
             // 
             txtPhone.Animated = true;
+            txtPhone.BackColor = Color.Transparent;
             txtPhone.BorderRadius = 8;
             txtPhone.Cursor = Cursors.IBeam;
             txtPhone.CustomizableEdges = customizableEdges7;
@@ -291,6 +293,7 @@
             // txtLastName
             // 
             txtLastName.Animated = true;
+            txtLastName.BackColor = Color.Transparent;
             txtLastName.BorderRadius = 8;
             txtLastName.Cursor = Cursors.IBeam;
             txtLastName.CustomizableEdges = customizableEdges9;
@@ -330,6 +333,7 @@
             // txtFirstName
             // 
             txtFirstName.Animated = true;
+            txtFirstName.BackColor = Color.Transparent;
             txtFirstName.BorderRadius = 8;
             txtFirstName.Cursor = Cursors.IBeam;
             txtFirstName.CustomizableEdges = customizableEdges11;
@@ -369,6 +373,7 @@
             // txtCustomerID
             // 
             txtCustomerID.Animated = true;
+            txtCustomerID.BackColor = Color.Transparent;
             txtCustomerID.BorderRadius = 8;
             txtCustomerID.Cursor = Cursors.IBeam;
             txtCustomerID.CustomizableEdges = customizableEdges13;

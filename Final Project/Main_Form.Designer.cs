@@ -244,6 +244,7 @@
             // tileReports
             // 
             tileReports.Animated = true;
+            tileReports.BackColor = Color.Transparent;
             tileReports.BorderRadius = 15;
             tileReports.Cursor = Cursors.Hand;
             tileReports.CustomizableEdges = customizableEdges3;
@@ -267,6 +268,7 @@
             // tileCategories
             // 
             tileCategories.Animated = true;
+            tileCategories.BackColor = Color.Transparent;
             tileCategories.BorderRadius = 15;
             tileCategories.Cursor = Cursors.Hand;
             tileCategories.CustomizableEdges = customizableEdges5;
@@ -290,6 +292,7 @@
             // tileRentals
             // 
             tileRentals.Animated = true;
+            tileRentals.BackColor = Color.Transparent;
             tileRentals.BorderRadius = 15;
             tileRentals.Cursor = Cursors.Hand;
             tileRentals.CustomizableEdges = customizableEdges7;
@@ -312,6 +315,7 @@
             // tileCustomers
             // 
             tileCustomers.Animated = true;
+            tileCustomers.BackColor = Color.Transparent;
             tileCustomers.BorderRadius = 15;
             tileCustomers.Cursor = Cursors.Hand;
             tileCustomers.CustomizableEdges = customizableEdges9;
@@ -335,6 +339,7 @@
             // tileEquipment
             // 
             tileEquipment.Animated = true;
+            tileEquipment.BackColor = Color.Transparent;
             tileEquipment.BorderRadius = 15;
             tileEquipment.Cursor = Cursors.Hand;
             tileEquipment.CustomizableEdges = customizableEdges11;

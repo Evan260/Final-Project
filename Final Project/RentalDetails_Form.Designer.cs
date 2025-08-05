@@ -983,6 +983,7 @@
             // btnProcessReturn
             // 
             btnProcessReturn.Animated = true;
+            btnProcessReturn.BackColor = Color.Transparent;
             btnProcessReturn.BorderRadius = 8;
             btnProcessReturn.Cursor = Cursors.Hand;
             btnProcessReturn.CustomizableEdges = customizableEdges23;
@@ -1006,6 +1007,7 @@
             // btnExtendRental
             // 
             btnExtendRental.Animated = true;
+            btnExtendRental.BackColor = Color.Transparent;
             btnExtendRental.BorderRadius = 8;
             btnExtendRental.Cursor = Cursors.Hand;
             btnExtendRental.CustomizableEdges = customizableEdges25;
@@ -1028,6 +1030,7 @@
             // btnPrint
             // 
             btnPrint.Animated = true;
+            btnPrint.BackColor = Color.Transparent;
             btnPrint.BorderRadius = 8;
             btnPrint.Cursor = Cursors.Hand;
             btnPrint.CustomizableEdges = customizableEdges27;

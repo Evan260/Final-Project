@@ -132,6 +132,7 @@
             // btnCancel
             // 
             btnCancel.Animated = true;
+            btnCancel.BackColor = Color.Transparent;
             btnCancel.BorderRadius = 10;
             btnCancel.Cursor = Cursors.Hand;
             btnCancel.CustomizableEdges = customizableEdges1;
@@ -156,6 +157,7 @@
             // btnSave
             // 
             btnSave.Animated = true;
+            btnSave.BackColor = Color.Transparent;
             btnSave.BorderRadius = 10;
             btnSave.Cursor = Cursors.Hand;
             btnSave.CustomizableEdges = customizableEdges3;
@@ -274,6 +276,7 @@
             // txtDescription
             // 
             txtDescription.Animated = true;
+            txtDescription.BackColor = Color.Transparent;
             txtDescription.BorderRadius = 8;
             txtDescription.Cursor = Cursors.IBeam;
             txtDescription.CustomizableEdges = customizableEdges11;
@@ -348,6 +351,7 @@
             // txtEquipmentName
             // 
             txtEquipmentName.Animated = true;
+            txtEquipmentName.BackColor = Color.Transparent;
             txtEquipmentName.BorderRadius = 8;
             txtEquipmentName.Cursor = Cursors.IBeam;
             txtEquipmentName.CustomizableEdges = customizableEdges15;
@@ -387,6 +391,7 @@
             // txtEquipmentID
             // 
             txtEquipmentID.Animated = true;
+            txtEquipmentID.BackColor = Color.Transparent;
             txtEquipmentID.BorderRadius = 8;
             txtEquipmentID.Cursor = Cursors.IBeam;
             txtEquipmentID.CustomizableEdges = customizableEdges17;

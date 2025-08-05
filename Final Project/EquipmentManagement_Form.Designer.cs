@@ -191,6 +191,7 @@
             // btnMarkDamaged
             // 
             btnMarkDamaged.Animated = true;
+            btnMarkDamaged.BackColor = Color.Transparent;
             btnMarkDamaged.BorderRadius = 8;
             btnMarkDamaged.Cursor = Cursors.Hand;
             btnMarkDamaged.CustomizableEdges = customizableEdges1;
@@ -215,6 +216,7 @@
             // btnRemove
             // 
             btnRemove.Animated = true;
+            btnRemove.BackColor = Color.Transparent;
             btnRemove.BorderRadius = 8;
             btnRemove.Cursor = Cursors.Hand;
             btnRemove.CustomizableEdges = customizableEdges3;
@@ -239,6 +241,7 @@
             // btnEdit
             // 
             btnEdit.Animated = true;
+            btnEdit.BackColor = Color.Transparent;
             btnEdit.BorderRadius = 8;
             btnEdit.Cursor = Cursors.Hand;
             btnEdit.CustomizableEdges = customizableEdges5;
@@ -262,6 +265,7 @@
             // btnAdd
             // 
             btnAdd.Animated = true;
+            btnAdd.BackColor = Color.Transparent;
             btnAdd.BorderRadius = 8;
             btnAdd.Cursor = Cursors.Hand;
             btnAdd.CustomizableEdges = customizableEdges7;
@@ -371,6 +375,7 @@
             // txtSearch
             // 
             txtSearch.Animated = true;
+            txtSearch.BackColor = Color.Transparent;
             txtSearch.BorderRadius = 5;
             txtSearch.Cursor = Cursors.IBeam;
             txtSearch.CustomizableEdges = customizableEdges15;

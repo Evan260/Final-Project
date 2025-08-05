@@ -163,6 +163,7 @@
             // btnCancel
             // 
             btnCancel.Animated = true;
+            btnCancel.BackColor = Color.Transparent;
             btnCancel.BorderRadius = 8;
             btnCancel.Cursor = Cursors.Hand;
             btnCancel.CustomizableEdges = customizableEdges1;
@@ -186,6 +187,7 @@
             // btnSave
             // 
             btnSave.Animated = true;
+            btnSave.BackColor = Color.Transparent;
             btnSave.BorderRadius = 8;
             btnSave.Cursor = Cursors.Hand;
             btnSave.CustomizableEdges = customizableEdges3;
@@ -210,6 +212,7 @@
             // txtDescription
             // 
             txtDescription.Animated = true;
+            txtDescription.BackColor = Color.Transparent;
             txtDescription.BorderRadius = 5;
             txtDescription.Cursor = Cursors.IBeam;
             txtDescription.CustomizableEdges = customizableEdges5;
@@ -250,6 +253,7 @@
             // txtCategoryName
             // 
             txtCategoryName.Animated = true;
+            txtCategoryName.BackColor = Color.Transparent;
             txtCategoryName.BorderRadius = 5;
             txtCategoryName.Cursor = Cursors.IBeam;
             txtCategoryName.CustomizableEdges = customizableEdges7;
@@ -442,6 +446,7 @@
             // btnDelete
             // 
             btnDelete.Animated = true;
+            btnDelete.BackColor = Color.Transparent;
             btnDelete.BorderRadius = 8;
             btnDelete.Cursor = Cursors.Hand;
             btnDelete.CustomizableEdges = customizableEdges15;
@@ -466,6 +471,7 @@
             // btnEdit
             // 
             btnEdit.Animated = true;
+            btnEdit.BackColor = Color.Transparent;
             btnEdit.BorderRadius = 8;
             btnEdit.Cursor = Cursors.Hand;
             btnEdit.CustomizableEdges = customizableEdges17;
@@ -489,6 +495,7 @@
             // btnAdd
             // 
             btnAdd.Animated = true;
+            btnAdd.BackColor = Color.Transparent;
             btnAdd.BorderRadius = 8;
             btnAdd.Cursor = Cursors.Hand;
             btnAdd.CustomizableEdges = customizableEdges19;

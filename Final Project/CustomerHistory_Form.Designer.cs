@@ -584,6 +584,7 @@
             // btnRefresh
             // 
             btnRefresh.Animated = true;
+            btnRefresh.BorderColor = Color.Transparent;
             btnRefresh.BorderRadius = 8;
             btnRefresh.Cursor = Cursors.Hand;
             btnRefresh.CustomizableEdges = customizableEdges13;
@@ -607,6 +608,7 @@
             // btnPrint
             // 
             btnPrint.Animated = true;
+            btnPrint.BorderColor = Color.Transparent;
             btnPrint.BorderRadius = 8;
             btnPrint.Cursor = Cursors.Hand;
             btnPrint.CustomizableEdges = customizableEdges15;
@@ -630,6 +632,7 @@
             // btnViewDetails
             // 
             btnViewDetails.Animated = true;
+            btnViewDetails.BorderColor = Color.Transparent;
             btnViewDetails.BorderRadius = 8;
             btnViewDetails.Cursor = Cursors.Hand;
             btnViewDetails.CustomizableEdges = customizableEdges17;

@@ -196,6 +196,7 @@
             // btnViewDetails
             // 
             btnViewDetails.Animated = true;
+            btnViewDetails.BackColor = Color.Transparent;
             btnViewDetails.BorderRadius = 8;
             btnViewDetails.Cursor = Cursors.Hand;
             btnViewDetails.CustomizableEdges = customizableEdges1;
@@ -220,6 +221,7 @@
             // btnProcessReturn
             // 
             btnProcessReturn.Animated = true;
+            btnProcessReturn.BackColor = Color.Transparent;
             btnProcessReturn.BorderRadius = 8;
             btnProcessReturn.Cursor = Cursors.Hand;
             btnProcessReturn.CustomizableEdges = customizableEdges3;
@@ -244,6 +246,7 @@
             // btnExtendRental
             // 
             btnExtendRental.Animated = true;
+            btnExtendRental.BackColor = Color.Transparent;
             btnExtendRental.BorderRadius = 8;
             btnExtendRental.Cursor = Cursors.Hand;
             btnExtendRental.CustomizableEdges = customizableEdges5;
@@ -267,6 +270,7 @@
             // btnNewRental
             // 
             btnNewRental.Animated = true;
+            btnNewRental.BackColor = Color.Transparent;
             btnNewRental.BorderRadius = 8;
             btnNewRental.Cursor = Cursors.Hand;
             btnNewRental.CustomizableEdges = customizableEdges7;
@@ -312,6 +316,7 @@
             // dtpEndDate
             // 
             dtpEndDate.Animated = true;
+            dtpEndDate.BackColor = Color.Transparent;
             dtpEndDate.BorderRadius = 5;
             dtpEndDate.Checked = true;
             dtpEndDate.CustomizableEdges = customizableEdges11;
@@ -345,6 +350,7 @@
             // dtpStartDate
             // 
             dtpStartDate.Animated = true;
+            dtpStartDate.BackColor = Color.Transparent;
             dtpStartDate.BorderRadius = 5;
             dtpStartDate.Checked = true;
             dtpStartDate.CustomizableEdges = customizableEdges13;
@@ -411,6 +417,7 @@
             // txtSearch
             // 
             txtSearch.Animated = true;
+            txtSearch.BackColor = Color.Transparent;
             txtSearch.BorderRadius = 5;
             txtSearch.Cursor = Cursors.IBeam;
             txtSearch.CustomizableEdges = customizableEdges17;

@@ -251,6 +251,7 @@
             // dtpNewReturnDate
             // 
             dtpNewReturnDate.Animated = true;
+            dtpNewReturnDate.BackColor = Color.Transparent;
             dtpNewReturnDate.BorderRadius = 5;
             dtpNewReturnDate.Checked = true;
             dtpNewReturnDate.CustomizableEdges = customizableEdges1;
@@ -370,6 +371,7 @@
             // txtEquipmentList
             // 
             txtEquipmentList.Animated = true;
+            txtEquipmentList.BackColor = Color.Transparent;
             txtEquipmentList.BorderRadius = 5;
             txtEquipmentList.Cursor = Cursors.IBeam;
             txtEquipmentList.CustomizableEdges = customizableEdges7;
@@ -557,6 +559,7 @@
             // btnCancel
             // 
             btnCancel.Animated = true;
+            btnCancel.BackColor = Color.Transparent;
             btnCancel.BorderRadius = 10;
             btnCancel.Cursor = Cursors.Hand;
             btnCancel.CustomizableEdges = customizableEdges13;
@@ -581,6 +584,7 @@
             // btnExtend
             // 
             btnExtend.Animated = true;
+            btnExtend.BackColor = Color.Transparent;
             btnExtend.BorderRadius = 10;
             btnExtend.Cursor = Cursors.Hand;
             btnExtend.CustomizableEdges = customizableEdges15;

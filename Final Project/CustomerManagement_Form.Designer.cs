@@ -192,6 +192,7 @@
             // btnViewHistory
             // 
             btnViewHistory.Animated = true;
+            btnViewHistory.BackColor = Color.Transparent;
             btnViewHistory.BorderRadius = 8;
             btnViewHistory.Cursor = Cursors.Hand;
             btnViewHistory.CustomizableEdges = customizableEdges1;
@@ -216,6 +217,7 @@
             // btnUnban
             // 
             btnUnban.Animated = true;
+            btnUnban.BackColor = Color.Transparent;
             btnUnban.BorderRadius = 8;
             btnUnban.Cursor = Cursors.Hand;
             btnUnban.CustomizableEdges = customizableEdges3;
@@ -241,6 +243,7 @@
             // btnBan
             // 
             btnBan.Animated = true;
+            btnBan.BackColor = Color.Transparent;
             btnBan.BorderRadius = 8;
             btnBan.Cursor = Cursors.Hand;
             btnBan.CustomizableEdges = customizableEdges5;
@@ -265,6 +268,7 @@
             // btnEdit
             // 
             btnEdit.Animated = true;
+            btnEdit.BackColor = Color.Transparent;
             btnEdit.BorderRadius = 8;
             btnEdit.Cursor = Cursors.Hand;
             btnEdit.CustomizableEdges = customizableEdges7;
@@ -288,6 +292,7 @@
             // btnAdd
             // 
             btnAdd.Animated = true;
+            btnAdd.BackColor = Color.Transparent;
             btnAdd.BorderRadius = 8;
             btnAdd.Cursor = Cursors.Hand;
             btnAdd.CustomizableEdges = customizableEdges9;
@@ -362,6 +367,7 @@
             // txtSearch
             // 
             txtSearch.Animated = true;
+            txtSearch.BackColor = Color.Transparent;
             txtSearch.BorderRadius = 5;
             txtSearch.Cursor = Cursors.IBeam;
             txtSearch.CustomizableEdges = customizableEdges15;

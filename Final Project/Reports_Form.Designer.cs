@@ -401,6 +401,7 @@
             // btnExport
             // 
             btnExport.Animated = true;
+            btnExport.BackColor = Color.Transparent;
             btnExport.BorderRadius = 8;
             btnExport.Cursor = Cursors.Hand;
             btnExport.CustomizableEdges = customizableEdges15;
@@ -424,6 +425,7 @@
             // btnRefresh
             // 
             btnRefresh.Animated = true;
+            btnRefresh.BackColor = Color.Transparent;
             btnRefresh.BorderRadius = 8;
             btnRefresh.Cursor = Cursors.Hand;
             btnRefresh.CustomizableEdges = customizableEdges17;
@@ -447,6 +449,7 @@
             // dtpEndDate
             // 
             dtpEndDate.Animated = true;
+            dtpEndDate.BackColor = Color.Transparent;
             dtpEndDate.BorderRadius = 5;
             dtpEndDate.Checked = true;
             dtpEndDate.CustomizableEdges = customizableEdges19;
@@ -480,6 +483,7 @@
             // dtpStartDate
             // 
             dtpStartDate.Animated = true;
+            dtpStartDate.BackColor = Color.Transparent;
             dtpStartDate.BorderRadius = 5;
             dtpStartDate.Checked = true;
             dtpStartDate.CustomizableEdges = customizableEdges21;
