@@ -1,9 +1,25 @@
-﻿using System.Runtime.InteropServices;
+﻿using Final_Project.Classes;
+using Guna.UI2.WinForms;
+using System.Runtime.InteropServices;
 
 namespace Final_Project
 {
     internal static partial class ThemeManager
     {
+        public static bool IsDarkTheme()
+        {
+            return true;
+        }
+
+        public static void UpdateDataGridViewHeaderTheme(Guna2DataGridView dataGridView)
+        {
+            foreach (DataGridViewColumn column in dataGridView.Columns)
+            {
+                column.HeaderCell.Style.BackColor = CustomColors.HeaderBackground;
+                column.HeaderCell.Style.SelectionBackColor = CustomColors.HeaderBackground;
+            }
+        }
+
         // Set the form header theme
         // https://stackoverflow.com/questions/57124243/winforms-dark-title-bar-on-windows-10
 

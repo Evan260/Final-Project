@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using Final_Project.Classes;
+using System.Data;
 
 namespace Final_Project
 {
@@ -31,6 +32,8 @@ namespace Final_Project
         }
         private void SetupDataGridView()
         {
+            DataGridViewManager.Initialize(dgvHistory);
+
             dgvHistory.Columns.Add(HistoryColumns.RentalID.ToString(), "Rental ID");
             dgvHistory.Columns.Add(HistoryColumns.RentalDate.ToString(), "Rental Date");
             dgvHistory.Columns.Add(HistoryColumns.ReturnDate.ToString(), "Return Date");

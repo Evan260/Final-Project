@@ -557,6 +557,7 @@
             Margin = new Padding(4, 5, 4, 5);
             MinimumSize = new Size(1308, 1056);
             Name = "CategoryManagement_Form";
+            ShowInTaskbar = false;
             StartPosition = FormStartPosition.CenterParent;
             Load += CategoryManagementForm_Load;
             pnlMain.ResumeLayout(false);

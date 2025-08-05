@@ -578,6 +578,7 @@
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
             Margin = new Padding(4, 5, 4, 5);
             Name = "Reports_Form";
+            ShowInTaskbar = false;
             StartPosition = FormStartPosition.CenterParent;
             Load += ReportsForm_Load;
             pnlMain.ResumeLayout(false);

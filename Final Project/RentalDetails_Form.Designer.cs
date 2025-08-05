@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -55,18 +55,16 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             pnlMain = new Guna.UI2.WinForms.Guna2Panel();
             pnlContent = new Guna.UI2.WinForms.Guna2Panel();
             pnlRight = new Guna.UI2.WinForms.Guna2Panel();
@@ -154,12 +152,12 @@
             pnlMain.Controls.Add(pnlContent);
             pnlMain.Controls.Add(pnlButtons);
             pnlMain.Controls.Add(pnlHeader);
-            pnlMain.CustomizableEdges = customizableEdges35;
+            pnlMain.CustomizableEdges = customizableEdges33;
             pnlMain.Dock = DockStyle.Fill;
             pnlMain.Location = new Point(0, 0);
             pnlMain.Margin = new Padding(4, 5, 4, 5);
             pnlMain.Name = "pnlMain";
-            pnlMain.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            pnlMain.ShadowDecoration.CustomizableEdges = customizableEdges34;
             pnlMain.Size = new Size(1429, 1160);
             pnlMain.TabIndex = 0;
             // 
@@ -972,13 +970,13 @@
             pnlButtons.Controls.Add(btnProcessReturn);
             pnlButtons.Controls.Add(btnExtendRental);
             pnlButtons.Controls.Add(btnPrint);
-            pnlButtons.CustomizableEdges = customizableEdges31;
+            pnlButtons.CustomizableEdges = customizableEdges29;
             pnlButtons.Dock = DockStyle.Bottom;
             pnlButtons.Location = new Point(0, 1060);
             pnlButtons.Margin = new Padding(4, 5, 4, 5);
             pnlButtons.Name = "pnlButtons";
             pnlButtons.Padding = new Padding(29, 33, 29, 33);
-            pnlButtons.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            pnlButtons.ShadowDecoration.CustomizableEdges = customizableEdges30;
             pnlButtons.Size = new Size(1429, 100);
             pnlButtons.TabIndex = 2;
             // 
@@ -1054,12 +1052,12 @@
             // 
             pnlHeader.BackColor = Color.FromArgb(25, 25, 25);
             pnlHeader.Controls.Add(lblTitle);
-            pnlHeader.CustomizableEdges = customizableEdges33;
+            pnlHeader.CustomizableEdges = customizableEdges31;
             pnlHeader.Dock = DockStyle.Top;
             pnlHeader.Location = new Point(0, 0);
             pnlHeader.Margin = new Padding(4, 5, 4, 5);
             pnlHeader.Name = "pnlHeader";
-            pnlHeader.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            pnlHeader.ShadowDecoration.CustomizableEdges = customizableEdges32;
             pnlHeader.Size = new Size(1429, 100);
             pnlHeader.TabIndex = 0;
             // 
@@ -1085,6 +1083,7 @@
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
             Margin = new Padding(4, 5, 4, 5);
             Name = "RentalDetails_Form";
+            ShowInTaskbar = false;
             StartPosition = FormStartPosition.CenterParent;
             Shown += RentalDetails_Form_Shown;
             pnlMain.ResumeLayout(false);

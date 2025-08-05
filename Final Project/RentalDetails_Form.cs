@@ -1,4 +1,6 @@
-﻿namespace Final_Project
+﻿using Final_Project.Classes;
+
+namespace Final_Project
 {
     public partial class RentalDetails_Form : Form
     {
@@ -26,6 +28,8 @@
         }
         private void SetupEquipmentDataGridView()
         {
+            DataGridViewManager.Initialize(dgvEquipment);
+
             dgvEquipment.Columns.Add(EquipmentColumns.Equipment.ToString(), "Equipment");
             dgvEquipment.Columns.Add(EquipmentColumns.DailyRate.ToString(), "Daily Rate");
             dgvEquipment.Columns.Add(EquipmentColumns.Days.ToString(), "Days");

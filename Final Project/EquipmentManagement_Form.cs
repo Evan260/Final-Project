@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using Final_Project.Classes;
+using System.Data;
 
 namespace Final_Project
 {
@@ -30,6 +31,8 @@ namespace Final_Project
         }
         private void SetupDataGridView()
         {
+            DataGridViewManager.Initialize(dgvEquipment);
+
             // Add columns
             dgvEquipment.Columns.Add(EquipmentColumns.ID.ToString(), "ID");
             dgvEquipment.Columns.Add(EquipmentColumns.Name.ToString(), "Name");

@@ -684,6 +684,7 @@
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
             Margin = new Padding(4, 5, 4, 5);
             Name = "CustomerHistory_Form";
+            ShowInTaskbar = false;
             StartPosition = FormStartPosition.CenterParent;
             Load += CustomerHistoryForm_Load;
             pnlMain.ResumeLayout(false);

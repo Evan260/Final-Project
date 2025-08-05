@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using Final_Project.Classes;
+using System.Data;
 
 namespace Final_Project
 {
@@ -49,6 +50,8 @@ namespace Final_Project
         }
         private void SetupDataGridViews()
         {
+            DataGridViewManager.Initialize(dgvAvailableEquipment);
+
             // Available Equipment
             dgvAvailableEquipment.Columns.Add(AvailableEquipmentColumns.ID.ToString(), "ID");
             dgvAvailableEquipment.Columns.Add(AvailableEquipmentColumns.Name.ToString(), "Name");
@@ -61,6 +64,8 @@ namespace Final_Project
             dgvAvailableEquipment.Columns[AvailableEquipmentColumns.DailyRate.ToString()].Width = 80;
             dgvAvailableEquipment.Columns[AvailableEquipmentColumns.DailyRate.ToString()].DefaultCellStyle.Format = "C2";
             dgvAvailableEquipment.Columns[AvailableEquipmentColumns.DailyRate.ToString()].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+
+            DataGridViewManager.Initialize(dgvSelectedEquipment);
 
             // Selected Equipment
             dgvSelectedEquipment.Columns.Add(SelectedEquipmentColumns.ID.ToString(), "ID");

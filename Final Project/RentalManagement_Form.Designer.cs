@@ -482,6 +482,7 @@
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
             Margin = new Padding(4, 5, 4, 5);
             Name = "RentalManagement_Form";
+            ShowInTaskbar = false;
             StartPosition = FormStartPosition.CenterParent;
             Load += RentalManagementForm_Load;
             pnlMain.ResumeLayout(false);
