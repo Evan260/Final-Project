@@ -16,6 +16,7 @@ namespace Final_Project
         {
             InitializeComponent();
             SetupAddMode();
+            ThemeManager.UseImmersiveDarkMode(Handle, true);
         }
 
         // Constructor for Edit mode
@@ -25,8 +26,8 @@ namespace Final_Project
 
             Customer = customer;
             _isEditMode = true;
-            ThemeManager.UseImmersiveDarkMode(Handle, true);
             SetupEditMode();
+            ThemeManager.UseImmersiveDarkMode(Handle, true);
         }
 
         private void SetupAddMode()
@@ -36,10 +37,6 @@ namespace Final_Project
 
             // Generate next customer ID
             txtCustomerID.Text = GenerateNextCustomerID().ToString();
-
-            // Set defaults
-            cmbStatus.SelectedIndex = 0; // Active
-            numDiscountPercent.Value = 0;
         }
         private void SetupEditMode()
         {

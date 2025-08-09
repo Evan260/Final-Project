@@ -356,7 +356,7 @@ namespace Final_Project
                 Category? selectedCategory = _allCategories.FirstOrDefault(c => c.ID == _selectedCategoryId);
                 if (selectedCategory != null)
                 {
-                    lblEquipmentCount.Text = $"{selectedCategory.EquipmentCount} equipment item(s)";
+                    //  lblEquipmentCount.Text = $"{selectedCategory.EquipmentCount} equipment item(s)";
 
                     if (selectedCategory.EquipmentCount > 0)
                     {

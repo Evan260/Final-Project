@@ -14,6 +14,7 @@
         {
             InitializeComponent();
             SetupAddMode();
+            ThemeManager.UseImmersiveDarkMode(Handle, true);
         }
 
         // Constructor for Edit mode
